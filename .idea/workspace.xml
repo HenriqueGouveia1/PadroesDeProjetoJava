@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c5b226b-5318-464d-aa7a-006ace47ce5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab-padroes-projeto-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonLazyHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Strategy/Comportamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Strategy/ComportamentoAgressivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Strategy/ComportamentoDefensivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Strategy/ComportamentoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Strategy/Robo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Singleton/SingletonEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Singleton/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalinnovation/gof/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Singleton/SingletonLazyHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,9 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2W7YiuequbvRbnd9KXbrh3tvCWP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,13 +49,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Testes"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="one.digitalinnovation.gof.Strategy" />
       <recent name="one.digitalinnovation.gof" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab-padroes-projeto-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,5 +83,16 @@
       <updated>1696085215604</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
